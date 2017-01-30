@@ -1,0 +1,11 @@
+name: Shijie Ma
+date: 01/26/2017
+
+You can run AI2_1.cpp with g++ on stdlinux or CSE department machine.
+Before compiling, you must use the "subscribe" command to subscribe the newest version of C++ compiler in std::linux to support c++11.
+
+The data of training set is stored in the file train.txt and the data of testing set is stored in the file test.txt and put the output into the file output.txt.
+You can run this program like this:
+
+g++ AI2_1.cpp -std=c++11
+./a.out train.txt test.txt > output.txt
